@@ -9,13 +9,13 @@ public class ShopTest {
         shop.addGood(new Good("Ice Cream", 1, 50000));
         shop.addGood(new Good("Chips", 2, 50000));
         shop.addGood(new Good("Milk", 3, 20000));
-        shop.increamentGood(shop.getGoods()[0], 3);
+        shop.incrementGood(shop.getGoods()[0], 3);
         System.out.println(shop);
-        shop.increamentGood(shop.getGoods()[0], 1);
+        shop.incrementGood(shop.getGoods()[0], 1);
         System.out.println(shop);
-        shop.increamentGood(shop.getGoods()[0], 1);
-//        shop.increamentGood(shop.getGoods()[0], 1);
-//        shop.increamentGood(shop.getGoods()[0], 1);
+        shop.incrementGood(shop.getGoods()[0], 1);
+//        shop.incrementGood(shop.getGoods()[0], 1);
+//        shop.incrementGood(shop.getGoods()[0], 1);
         System.out.println(shop);
     }
 }
